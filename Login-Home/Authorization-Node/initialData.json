@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Electronics",
+        "description": "Devices and gadgets",
+        "price": 299.99,
+        "product": "Laptop"
+    },
+    {
+        "title": "Books",
+        "description": "Educational and recreational reading",
+        "price": 19.99,
+        "product": "Fiction"
+    },
+    {
+        "title": "Clothing",
+        "description": "Fashionable attire for all occasions",
+        "price": 49.99,
+        "product": "T-shirt"
+    },
+    {
+        "title": "Home Appliances",
+        "description": "Essential household appliances",
+        "price": 199.99,
+        "product": "Refrigerator"
+    },
+    {
+        "title": "Toys",
+        "description": "Fun and engaging playthings for kids",
+        "price": 29.99,
+        "product": "Action Figure"
+    },
+    {
+        "title": "Sports Equipment",
+        "description": "Gear for various athletic activities",
+        "price": 89.99,
+        "product": "Football"
+    },
+    {
+        "title": "Beauty Products",
+        "description": "Cosmetics and skincare essentials",
+        "price": 39.99,
+        "product": "Lipstick"
+    },
+    {
+        "title": "Furniture",
+        "description": "Stylish and functional home furnishings",
+        "price": 349.99,
+        "product": "Sofa"
+    },
+    {
+        "title": "Kitchenware",
+        "description": "Tools and utensils for cooking and dining",
+        "price": 59.99,
+        "product": "Cookware Set"
+    },
+    {
+        "title": "Outdoor Gear",
+        "description": "Equipment for outdoor adventures",
+        "price": 129.99,
+        "product": "Tent"
+    }
+]

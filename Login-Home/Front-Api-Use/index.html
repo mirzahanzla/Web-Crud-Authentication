@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Manipulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Muhammad Hanzla</h1>
+    <h1>SP21-BSE-057</h1>
+    <main>
+        <section class="users-data">
+            <h1>User Data</h1>
+        </section>
+        <section class="form-data">
+            <form>
+                <h1>User Data Form</h1>
+                <div class="input-container">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required autofocus>
+                </div>
+                <div class="input-container">
+                    <label for="gender">Gender:</label>
+                    <div class="radio-group">
+                        <label for="male"><input type="radio" value="Male" name="gender"></label>
+                        <label for="female"><input type="radio" value="Female" name="gender"></label>
+                    </div>
+                </div>
+                <div class="input-container">
+                    <label for="gender">Interest:</label>
+                    <div class="radio-group">
+                        <label for="web-apps"><input type="checkbox" value="Web Apps" name="interest"></label>
+                        <label for="mobile-apps"><input type="checkbox" value="Mobile Apps" name="interest"></label>
+                        <label for="ML"><input type="checkbox" value="ML" name="interest"></label>
+                    </div>                
+                </div>
+                <div class="input-container">
+                    <label for="country">Country:</label>
+                    <select name="country" id="country"></select>
+                </div>
+                <div class="input-container">
+                    <label for="city">City:</label>
+                    <select name="city" id="city"></select>
+                </div>
+                <button type="submit">Show Data</button>
+            </form>
+        </section>  
+        <section class="display-data-template">
+            <h1>Display Items</h1>
+            <div class="name">
+                <label for="user-name-title">Name:</label>
+                <label for="userName-value" class="data-value">-</label>
+            </div>
+            <div class="gender">
+                <label for="gender-title">Gender:</label>
+                <label for="gender-value" class="data-value">-</label>
+            </div>
+            <div class="interest">
+                <label for="interest-title">Interest:</label>
+                <label for="interest-value" class="data-value">-</label>
+            </div>
+            <div class="country">
+                <label for="country-title">Country:</label>
+                <label for="country-value" class="data-value">-</label>
+            </div>
+            <div class="city">
+                <label for="city-title">City:</label>
+                <label for="city-value" class="data-value">-</label>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

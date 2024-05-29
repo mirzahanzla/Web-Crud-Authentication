@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 30px;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+form > *:not(:first-child) {
+    margin-bottom: 10px;
+}
+input,
+select,
+textarea {
+    position: relative;
+    padding: 3px 5px;
+}
+.input-container,
+.radio-group,
+.display-data-template > div {
+    display: grid;
+    white-space: nowrap;
+}
+input[type='radio']::after,
+input[type='checkbox']::after {
+    content: attr(value);
+    position: absolute;
+    left: 18px;
+    top: -1px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+.users-data {
+    padding: 16px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+.users-data > div {
+    cursor: pointer;
+}
+.form-data {
+    padding: 16px;
+    background-color: lightcyan;
+    border: 1px solid #333;
+}
+.display-data-template {
+    background-color: lightgray;
+    padding: 16px;
+    border: 1px solid black;
+    grid-column: span 2;
+}
+.display-data-template > div {
+    margin-bottom: 20px;
+    display: grid;
+    white-space: nowrap;
+    grid-template-columns: 1fr 2fr;
+    font-size: 20px;
+}
+.display-data-template > div > label:first-child {
+    font-weight: 600;
+}
+section h1 {
+    margin-bottom: 8px;
+}
+button[type='submit'] {
+    padding: 10px;
+}
+@media (min-width: 600px) {
+    .input-container {
+        grid-template-columns: 1fr 2fr;
+    }
+    .radio-group {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .display-data-template {
+        grid-column: initial;
+    }
+}
